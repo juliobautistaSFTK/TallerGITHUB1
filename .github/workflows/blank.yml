@@ -1,0 +1,17 @@
+name: Ejecutar en DEV_B
+
+on:
+  push:
+    branches:
+      - DEV_JBCR
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout código
+      uses: actions/checkout@v2
+
+    - name: Imprimir mensaje
+      run: echo "Se hizo push a la rama DEV_JBCR. Ejecutando flujo de trabajo..."
