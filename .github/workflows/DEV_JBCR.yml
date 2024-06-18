@@ -3,7 +3,7 @@ name: Ejemplo de Action
 on:
   push:
     branches:
-      - main
+      - DEV_JBCR
 
 jobs:
   build:
@@ -11,4 +11,4 @@ jobs:
     
     steps:
     - name: Imprimir mensaje
-      run: echo "¡Hola, este es un ejemplo de GitHub Actions desde main!"
+      run: echo "¡Hola, este es un ejemplo de GitHub Actions desde JBCR!"
