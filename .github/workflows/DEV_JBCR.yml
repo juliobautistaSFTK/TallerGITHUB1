@@ -1,9 +1,6 @@
 name: Ejemplo de Action
 
-on:
-  push:
-    branches-ignore:
-      - '*'
+on: [push]
 
 jobs:
   build:
