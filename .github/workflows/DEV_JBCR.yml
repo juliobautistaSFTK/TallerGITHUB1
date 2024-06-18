@@ -1,6 +1,9 @@
 name: Ejemplo de Action
 
-on: [push]
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   build:
@@ -8,4 +11,4 @@ jobs:
     
     steps:
     - name: Imprimir mensaje
-      run: echo "¡Hola, este es un ejemplo de GitHub Actions!"
+      run: echo "¡Hola, este es un ejemplo de GitHub Actions desde main!"
