@@ -1,7 +1,9 @@
 name: Ejemplo de Action
 
 on:
-  workflow_dispatch:  # Disparador manual
+  push:
+    branches-ignore:
+      - '*'
 
 jobs:
   build:
