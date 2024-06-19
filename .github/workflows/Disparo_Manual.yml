@@ -16,5 +16,5 @@ jobs:
         repository: juliobautistaSFTK/TallerGITHUB1
         ref: main
     - name: Cat de arvhivo
-      run: ls
+      run: cat Prueba
       working-directory: ${{ github.workspace }}
