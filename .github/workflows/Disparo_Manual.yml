@@ -10,6 +10,11 @@ jobs:
     steps:
     - name: Imprimir mensaje
       run: echo "¡Hola! Este es un flujo de trabajo de prueba ejecutado manualmente."
+    - name: Checkout código
+      uses: actions/checkout@v2
+      with:
+        repository: juliobautistaSFTK/TallerGITHUB1
+        ref: main
     - name: Cat de arvhivo
       run: ls
       working-directory: ${{ github.workspace }}
