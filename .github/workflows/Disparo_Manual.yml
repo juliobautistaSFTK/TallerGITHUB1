@@ -15,6 +15,6 @@ jobs:
       with:
         repository: juliobautistaSFTK/TallerGITHUB1
         ref: main
-    - name: Cat de arvhivo llamado prueba
+    - name: Cat de archivo llamado prueba
       run: cat Prueba
       
