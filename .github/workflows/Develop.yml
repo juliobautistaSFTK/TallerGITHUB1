@@ -3,7 +3,7 @@ name: Ejecutar en DEV_B
 on:
   push:
     branches:
-      - DEV_JBCR
+      - Develop
 
 jobs:
   build:
@@ -14,4 +14,4 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Imprimir mensaje
-      run: echo "Se hizo push a la rama DEV_JBCR. Ejecutando flujo de trabajo..."
+      run: echo "Se hizo push a la rama Develop. Ejecutando flujo de trabajo..."
