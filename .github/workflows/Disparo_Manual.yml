@@ -11,5 +11,5 @@ jobs:
     - name: Imprimir mensaje
       run: echo "¡Hola! Este es un flujo de trabajo de prueba ejecutado manualmente."
     - name: Cat de arvhivo
-      run: cat ls
+      run: ls
       working-directory: ${{ github.workspace }}
