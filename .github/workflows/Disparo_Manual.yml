@@ -1,0 +1,12 @@
+name: Prueba Manual
+
+on:
+  workflow_dispatch:  # Disparador manual
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Imprimir mensaje
+      run: echo "¡Hola! Este es un flujo de trabajo de prueba ejecutado manualmente."
