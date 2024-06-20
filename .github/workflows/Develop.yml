@@ -14,4 +14,4 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Imprimir mensaje
-      run: echo "Se hizo push a la rama Develop. Ejecutando flujo de trabajo..."
+      run: echo "Se hizo push a la rama Develop para la rama Develop. Ejecutando flujo de trabajo..."
