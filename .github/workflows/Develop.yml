@@ -12,6 +12,12 @@ jobs:
     steps:
     - name: Checkout código
       uses: actions/checkout@v2
+      with:
+        repository: juliobautistaSFTK/TallerGITHUB1
+        ref: DevWF
 
     - name: Imprimir mensaje
-      run: echo "Se hizo push a la rama Develop para la rama Develop. Ejecutando flujo de trabajo..."
+      run: echo "Se hizo push a la rama DevWF para la rama DevWF. Ejecutando flujo de trabajo..."
+
+    - name: Cat de archivo Pruebas
+      run: cat Prueba      
