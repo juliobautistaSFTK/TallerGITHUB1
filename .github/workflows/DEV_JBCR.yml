@@ -3,7 +3,7 @@ name: Ejemplo de Action
 on:
   push:
     branches:
-      - main
+      - Develop
 
 jobs:
   build:
