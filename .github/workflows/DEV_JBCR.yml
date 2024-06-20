@@ -11,4 +11,4 @@ jobs:
     
     steps:
     - name: Imprimir mensaje
-      run: echo "¡Hola, este es un ejemplo de GitHub Actions desde JBCR!"
+      run: echo "¡Hola, este es un ejemplo de GitHub Actions desde Develop!"
