@@ -3,7 +3,7 @@ name: Ejecutar en DEV_B
 on:
   push:
     branches:
-      - Develop
+      - DevWF
 
 jobs:
   build:
