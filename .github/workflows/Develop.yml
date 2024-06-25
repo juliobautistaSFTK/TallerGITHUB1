@@ -1,0 +1,23 @@
+name: Ejecutar en DEV_B
+
+on:
+  push:
+    branches:
+      - DevWF
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout código
+      uses: actions/checkout@v2
+      with:
+        repository: juliobautistaSFTK/TallerGITHUB1
+        ref: DevWF
+
+    - name: Imprimir mensaje
+      run: echo "Se hizo push a la rama DevWF para la rama DevWF. Ejecutando flujo de trabajo..."
+
+    - name: Cat de archivo Pruebas
+      run: cat Prueba      
